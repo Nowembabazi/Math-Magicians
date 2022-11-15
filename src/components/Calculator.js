@@ -35,7 +35,6 @@ class App extends React.Component {
             <button className="btns">6</button>
             <button className="btns amber">-</button>
 
-
             <button className="btns">1</button>
             <button className="btns">2</button>
             <button className="btns">3</button>
@@ -45,7 +44,6 @@ class App extends React.Component {
             <button className="btns">.</button>
             <button className="btns amber">=</button>
 
-          
           </div>
         </div>
       </div>
