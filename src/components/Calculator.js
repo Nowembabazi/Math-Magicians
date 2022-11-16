@@ -1,54 +1,55 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable react/self-closing-comp */
 
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
+function Calculator() {
+  const [state, setState] = useState({ total: 0 });
+  function btnClick(e) {
+    setState((state) => calculate(state, e.target.innerText));
   }
 
-  render() {
-    return (
-      <div className="App">
-        <div className="container">
-          <div className="display">
-            <span></span>
-            {' '}
-            0
-          </div>
+  const { total, next, operation } = state;
+  return (
+    <div className="App">
+      <div className="container">
+        <div className="display">
+          <span></span>
+          {' '}
+          { total }
+          { operation }
+          { next }
+        </div>
 
-          <div className="digits">
-            <button className="btns">AC</button>
-            <button className="btns">+/-</button>
-            <button className="btns">%</button>
-            <button className="btns amber">÷</button>
+        <div className="digits">
+          <button className="btns" onClick={btnClick}>AC</button>
+          <button className="btns" onClick={btnClick}>+/-</button>
+          <button className="btns" onClick={btnClick}>%</button>
+          <button className="btns amber" onClick={btnClick}>÷</button>
 
-            <button className="btns-1">7</button>
-            <button className="btns-1">8</button>
-            <button className="btns-1">9</button>
-            <button className="btns amber">X</button>
+          <button className="btns-1" onClick={btnClick}>7</button>
+          <button className="btns-1" onClick={btnClick}>8</button>
+          <button className="btns-1" onClick={btnClick}>9</button>
+          <button className="btns amber" onClick={btnClick}>x</button>
 
-            <button className="btns">4</button>
-            <button className="btns">5</button>
-            <button className="btns">6</button>
-            <button className="btns amber">-</button>
+          <button className="btns" onClick={btnClick}>4</button>
+          <button className="btns" onClick={btnClick}>5</button>
+          <button className="btns" onClick={btnClick}>6</button>
+          <button className="btns amber" onClick={btnClick}>-</button>
 
-            <button className="btns">1</button>
-            <button className="btns">2</button>
-            <button className="btns">3</button>
-            <button className="btn2 amber">+</button>
+          <button className="btns" onClick={btnClick}>1</button>
+          <button className="btns" onClick={btnClick}>2</button>
+          <button className="btns" onClick={btnClick}>3</button>
+          <button className="btns amber" onClick={btnClick}>+</button>
 
-            <button className="btns-2">0</button>
-            <button className="btns">.</button>
-            <button className="btns amber">=</button>
-
-          </div>
+          <button className="btns-2" onClick={btnClick}>0</button>
+          <button className="btns" onClick={btnClick}>.</button>
+          <button className="btns amber" onClick={btnClick}>=</button>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default App;
+export default Calculator;
