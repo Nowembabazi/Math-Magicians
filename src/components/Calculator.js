@@ -26,26 +26,26 @@ function Calculator() {
           <button className="btns" onClick={btnClick}>AC</button>
           <button className="btns" onClick={btnClick}>+/-</button>
           <button className="btns" onClick={btnClick}>%</button>
-          <button className="btns amber" onClick={btnClick}>÷</button>
+          <button className="btns go" onClick={btnClick}>÷</button>
 
           <button className="btns-1" onClick={btnClick}>7</button>
           <button className="btns-1" onClick={btnClick}>8</button>
           <button className="btns-1" onClick={btnClick}>9</button>
-          <button className="btns amber" onClick={btnClick}>x</button>
+          <button className="btns go" onClick={btnClick}>x</button>
 
           <button className="btns" onClick={btnClick}>4</button>
           <button className="btns" onClick={btnClick}>5</button>
           <button className="btns" onClick={btnClick}>6</button>
-          <button className="btns amber" onClick={btnClick}>-</button>
+          <button className="btns go" onClick={btnClick}>-</button>
 
           <button className="btns" onClick={btnClick}>1</button>
           <button className="btns" onClick={btnClick}>2</button>
           <button className="btns" onClick={btnClick}>3</button>
-          <button className="btns amber" onClick={btnClick}>+</button>
+          <button className="btns go" onClick={btnClick}>+</button>
 
           <button className="btns-2" onClick={btnClick}>0</button>
           <button className="btns" onClick={btnClick}>.</button>
-          <button className="btns amber" onClick={btnClick}>=</button>
+          <button className="btns go" onClick={btnClick}>=</button>
         </div>
       </div>
     </div>
