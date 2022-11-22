@@ -51,9 +51,9 @@ npm start
 
 👤 **Author1**
 
-- GitHub: [@Nowembabazi](https://github.com/githubhandle)
-- Twitter: [@Nowembabazi](https://twitter.com/twitterhandle)
-- LinkedIn: [NowembabaziN](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Nowembabazi](https://github.com/Nowembabazi)
+- Twitter: [@Nowembabazi](https://twitter.com/Nowembabazi)
+- LinkedIn: [nowembabazi-nickson](https://linkedin.com/in/nowembabazi-nickson-181077247/
 
 ## 🤝 Contributing
 
