@@ -3,6 +3,7 @@
 # Math-Magicians
 
 > Description the project.
+-In this project I set up the environment and tools needed to develop a React application.
 
 
 ## Built With
@@ -10,6 +11,11 @@
 -JSX
 -JavaScript
 -React
+-create-react-app
+-Linters
+-github folder with linters.yml files
+-babelrc
+
 
 ## Live Demo (if available)
 
@@ -27,12 +33,15 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
+npm create-react-app
 
 ### Install
+npm install
 
 ### Usage
 
 ### Run tests
+npm start
 
 ### Deployment
 
@@ -42,15 +51,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Nowembabazi](https://github.com/githubhandle)
+- Twitter: [@Nowembabazi](https://twitter.com/twitterhandle)
+- LinkedIn: [NowembabaziN](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-Google
+-YouTube.
 
 ## 📝 License
 
